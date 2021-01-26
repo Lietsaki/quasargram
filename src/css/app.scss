@@ -1,0 +1,52 @@
+// app global css in SCSS form
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+.text-grand-hotel {
+  font-family: 'Grand Hotel', 'Roboto', 'Helvetica Neue', Arial, Helvetica,
+    sans-serif;
+}
+
+// Make sure the media query type (min/max) matches the breakpoint's suffix (-min/-max)
+// OTHERWISE UNEXPECTED THINGS WILL HAPPEN
+.sm-only {
+  @media (max-width: $breakpoint-xs-max) {
+    display: block;
+  }
+
+  @media (min-width: $breakpoint-sm-min) {
+    display: none;
+  }
+}
+
+.lg-only {
+  @media (max-width: $breakpoint-xs-max) {
+    display: none;
+  }
+
+  @media (min-width: $breakpoint-sm-min) {
+    display: block;
+  }
+}
+
+.constrain {
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.constrain-more {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded {
+  border-radius: 10px;
+}
