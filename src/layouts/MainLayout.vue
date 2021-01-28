@@ -60,12 +60,6 @@ export default {
 </script>
 
 <style lang="scss">
-// .q-toolbar {
-//   @media (min-width: $breakpoint-sm-min) {
-//     height: 7rem;
-//   }
-// }
-
 .q-toolbar__title {
   font-size: 30px;
 

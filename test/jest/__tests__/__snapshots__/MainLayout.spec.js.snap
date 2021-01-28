@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Layout Displays title correctly 1`] = `
+<q-toolbar-title-stub class="text-grand-hotel text-weight-bold">
+  Quasargram
+</q-toolbar-title-stub>
+`;
